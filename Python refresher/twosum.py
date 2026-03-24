@@ -3,6 +3,8 @@ from typing import List
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
+        
+        """
         for i in range(len(nums)):
             for x in range (i+1,(len(nums))):
                 if ((nums[i] + nums[x]) == target):
@@ -10,3 +12,10 @@ class Solution:
 
                     # Note that this uses 0(n2) and the best soolution would require 0(n) but
                     # for the first straight think this is ok
+        """
+        ledge = {}
+        for i, num in enumerate(nums):
+            expected = target - num
+            if expected in ledge:
+                return [ledge[expected],i]
+            ledge[num]=i

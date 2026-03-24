@@ -19,7 +19,7 @@ class TestTwoSum(unittest.TestCase):
         nums = [3, 2, 4]
         target = 7
         result = self.solution.twoSum(nums, target)
-        self.assertEqual(result, [0, 1])
+        self.assertEqual(result, [0, 2])
 
     def test_two_sum_negative(self):
         nums = [3, 3]
