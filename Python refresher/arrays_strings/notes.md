@@ -19,6 +19,11 @@
 | `abs(x)` | Absolute value | `abs(i - j)` |
 | `ord(c)` / `chr(i)` | Char ↔ ASCII code | `ord('a') == 97` |
 | `set(iterable)` | Unique values and membership checks | `if num in seen:` |
+| `lower()` | changes the whole string to lower case | `words.lower()` |
+| `upper()` | changes the whole string to lower case | `words.upper()` |
+| `isalnum()` | Checks if character is alphanumeric | `x.isalnum()` |
+| `set(iterable)` | Removes leading/trailing whitespace | `words.strip()` |
+| `join()` | used to join string and lists | `x = "".joined(list[],dict{})` |
 
 
 
