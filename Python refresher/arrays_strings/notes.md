@@ -25,7 +25,7 @@
 | `set(iterable)` | Removes leading/trailing whitespace | `words.strip()` |
 | `join()` | used to join string and lists | `x = "".joined(list[],dict{})` |
 
-
+adding two int arrays `nums + nums` will return the two arrays combined
 
 
 ## Quick reminders
