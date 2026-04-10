@@ -1,4 +1,5 @@
-Array1 = ["a", "b", "c", "d", "e"]
-Array2 = ["f", "g", "h", "i", "j"]
-
-print(Array1 == Array2)  # Output: False
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        y = str(x)
+        return y == y[::-1]
+        
